@@ -1,0 +1,153 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PojisteniApp
+build_property.RootNamespace = PojisteniApp
+build_property.ProjectDir = C:\Users\cicup\OneDrive\NEW_IT_PROJECTS\C#Fundamentals\VisualStudio\source\repos\PojisteniApp\PojisteniApp\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\cicup\OneDrive\NEW_IT_PROJECTS\C#Fundamentals\VisualStudio\source\repos\PojisteniApp\PojisteniApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/InsuracePersonDatas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhY2VQZXJzb25EYXRhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/InsuracePersonDatas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhY2VQZXJzb25EYXRhc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/InsuracePersonDatas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhY2VQZXJzb25EYXRhc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/InsuracePersonDatas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhY2VQZXJzb25EYXRhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/InsuracePersonDatas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhY2VQZXJzb25EYXRhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/InsuranceEvents/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlRXZlbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/InsuranceEvents/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlRXZlbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/InsuranceEvents/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlRXZlbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/InsuranceEvents/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlRXZlbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/InsuranceEvents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlRXZlbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/InsuranceInfoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlSW5mb2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/InsuranceInfoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlSW5mb2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/InsuranceInfoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlSW5mb2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/InsuranceInfoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlSW5mb2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/InsuranceInfoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlSW5mb2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/Insurances/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/Insurances/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/Insurances/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/Insurances/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/Insurances/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/PersonInsurances/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uSW5zdXJhbmNlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/PersonInsurances/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uSW5zdXJhbmNlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/PersonInsurances/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uSW5zdXJhbmNlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/PersonInsurances/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uSW5zdXJhbmNlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/PersonInsurances/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uSW5zdXJhbmNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cicup/OneDrive/NEW_IT_PROJECTS/C\#Fundamentals/VisualStudio/source/repos/PojisteniApp/PojisteniApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-m9iqexl2c6
