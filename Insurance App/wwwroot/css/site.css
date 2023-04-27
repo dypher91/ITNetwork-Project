@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-ExtraBold.ttf);
+    font-weight: bold;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.buttonPojistenci {
+    position: center;
+    border-color: #007bff;
+    border-radius: 20px;
+    background-color: #11438f;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.sumatext {
+    font-size: 16px;
+    color: red;
+}
+
+.sumapoj {
+    font-size: 16px;
+    color: blue;
+}
+
+.btnEditTable {
+
+    border-color: #007bff;
+    border-radius: 15px;
+    background-color: yellowgreen;
+    border: none;
+    color: white;
+    padding: 0.65rem;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 15px;
+}
+
+.btnDeleteTable {
+    border-color: #007bff;
+    border-radius: 15px;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 0.65rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+.linkPIdetails {
+    text-decoration: none;
+}
+.searchtext {
+    font-size: 1.25rem;
+}
+
+#pie-chart-container, #bar-chart-container, #line-chart-container {
+    display: flex;
+    justify-content: center;
+    max-width: 300px; /* updated max width */
+    margin: 0 auto;
+}
