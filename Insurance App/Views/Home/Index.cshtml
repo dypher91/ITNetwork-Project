@@ -1,0 +1,78 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<h1>Vítejte v aplikaci pojištění</h1>
+
+    <h2>Přehled pojištění - dle typu</h2>
+    <div id="pie-chart"></div>
+
+    <h2>Přehled pojištění - dle výše pojistky a města</h2>
+    <div id="bar-chart"></div>
+
+
+    <!-- Include the necessary libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Create the pie chart -->
+    <script>
+        var pieChartData = @Html.Raw(ViewBag.PieChartData);
+
+        var options = {
+        chart: {
+        type: 'pie',
+        height: 300 // updated chart height
+        },
+        series: pieChartData.map((data) => data.value),
+        labels: pieChartData.map((data) => data.label),
+        };
+
+        var chart = new ApexCharts(document.querySelector("#pie-chart"), options);
+        chart.render();
+    </script>
+
+    <script>
+        var barChartData = @Html.Raw(ViewBag.BarChartData); // using the same variable name, but this will contain the bar chart data
+
+        var options = {
+        chart: {
+        type: 'bar', // changed chart type to 'bar'
+        height: 350 // added chart height
+        },
+        plotOptions: { // added plot options for the bar chart
+        bar: {
+        horizontal: false,
+        columnWidth: '55%',
+        endingShape: 'rounded'
+        },
+        },
+        dataLabels: {
+        enabled: false
+        },
+        stroke: {
+        show: true,
+        width: 2,
+        colors: ['transparent']
+        },
+        series: barChartData.map((data) => ({ name: data.label, data: data.data })),
+        xaxis: {
+        categories: barChartData[0].data.map(() => ""),
+        },
+        yaxis: {
+        title: {
+        text: 'Hodnota pojistek' // added y-axis title
+        }
+        },
+        fill: {
+        opacity: 1
+        },
+
+        };
+
+        var chart = new ApexCharts(document.querySelector("#bar-chart"), options);
+        chart.render();
+    </script>
+
+
+
+

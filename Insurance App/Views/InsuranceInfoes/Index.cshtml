@@ -1,0 +1,47 @@
+﻿@model IEnumerable<PojisteniApp.Models.InsuranceInfo>
+
+@{
+    ViewData["Title"] = "Seznam pojištění";
+}
+
+<h1>Seznam pojištění</h1>
+
+<p>
+    @if (User.IsInRole("admin"))
+    {
+         <a class="buttonPojistenci" asp-action="Create">Vytvořit nový</a>
+    }
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DescriptionOfInsurance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescriptionId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescriptionOfInsurance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescriptionId)
+            </td>
+            @if (User.IsInRole("admin"))
+                {
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+            }
+        </tr>
+}
+    </tbody>
+</table>
