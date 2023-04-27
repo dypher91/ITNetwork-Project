@@ -1,0 +1,109 @@
+﻿@model PojisteniApp.Models.InsuracePersonData
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<div class="profile">
+    @if (Model.LastName.Contains("á")) //temporary solution
+    {
+        <img src ="~/img/woman_150x150.png" alt="Avatar">
+    }else
+    {
+        <img src ="~/img/man_150x150.png" alt="Avatar">
+    }
+    @*Source: Yasir Design, vecteezy.com*@
+    </div>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SocialNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SocialNumber)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.City)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PostZipCode)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PostZipCode)
+        </dd>
+    </dl>
+</div>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Pojištění</th>
+      <th>Částka</th>
+      <th>Celková částka</th>
+      <th>           </th>
+    </tr>
+  </thead>
+  
+  <tbody>
+        @foreach (var item in Model.PersonInsurances)
+        {
+            <tr>
+                <td>  
+                    <a class="linkPIdetails" asp-controller="PersonInsurances" asp-action="Details" asp-route-id="@item.PersonInsuranceId">@item.IntrestOfInsurance</a>
+                </td>
+                <td>
+                    @item.ValueOfInsurance
+                </td>
+                <td>
+                    <span class="sumapoj">@Model.PersonInsurances.Sum(i => i.ValueOfInsurance).ToString("0.##")</span>
+                </td>
+                <td>
+                     <a class="btnEditTable" asp-controller="PersonInsurances" asp-action="Edit" asp-route-id="@item.PersonInsuranceId">Edit</a>
+                     <a class="btnDeleteTable" asp-controller="PersonInsurances" asp-action="Delete" asp-route-id="@item.PersonInsuranceId">Delete</a>
+                </td>
+            </tr>
+        }
+</tbody>
+</table>
+
+
+<div>
+    @*<a asp-action="Edit" asp-route-id="@Model?.PersonId">Edit</a> |*@
+    <a asp-action="Index">Back to List</a>
+</div>

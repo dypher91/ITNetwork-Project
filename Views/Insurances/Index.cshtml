@@ -1,0 +1,53 @@
+﻿@model IEnumerable<PojisteniApp.Models.Insurance>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Seznam pojištění</h1>
+
+<p>
+    <a class="buttonPojistenci" asp-action="Create">Vytvořit</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescriptionOfInsurance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescriptionId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Person.SocialNumber)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescriptionOfInsurance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescriptionId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Person.SocialNumber)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.InsuranceId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.InsuranceId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.InsuranceId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

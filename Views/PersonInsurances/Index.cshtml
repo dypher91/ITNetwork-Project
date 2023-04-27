@@ -1,0 +1,59 @@
+﻿@model IEnumerable<PojisteniApp.Models.PersonInsurance>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Seznam pojištění</h1>
+
+<p>
+    <a class="buttonPojistenci" asp-action="Create">Vytvořit</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ValueOfInsurance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IntrestOfInsurance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InsuranceStart)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InsuranceEnd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Person.SocialNumber)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValueOfInsurance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IntrestOfInsurance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InsuranceStart)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InsuranceEnd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Person.SocialNumber)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PersonInsuranceId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PersonInsuranceId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PersonInsuranceId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
